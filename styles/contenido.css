@@ -1,0 +1,77 @@
+.page-container{
+ margin: 40px 0px 0px 40px;
+ display:flex;
+ justify-content:space-between;
+ font-family: 'Roboto', sans-serif;
+}
+
+/*Columna izquierda de la zona central de la página*/
+.page-container>.container-left-column{
+    margin-right: 5em;
+}
+
+.page-container>.container-left-column>.text span{
+    font-weight: 900;
+}
+
+/*Icono de mano*/
+.page-container>.container-left-column> .text i{
+    color:rgb(165, 117, 54)
+
+}
+
+.page-container>.container-left-column>.text{
+    font-size: 30px;
+    font-weight:100;    
+}
+
+/*Botones de la columna izquierda de la zona central de la página*/
+.page-container>.container-left-column>.buttons{
+    display: flex;
+    margin-top: 15px; 
+    font-size: 25px;
+    font-weight: 550;
+}
+
+/*Botón Sign Up*/
+.page-container>.container-left-column>.buttons>.button-one{
+    height: 30px;
+    color: black;
+    background-color: rgb(77, 215, 109);
+    padding: 12px 15px;
+    margin-right: 15px;
+    align-items:center;
+    border-radius: 3px;
+}
+
+/*Botón Learn More*/
+.page-container>.container-left-column>.buttons>.button-two{
+    height: 30px;
+    color:aliceblue;
+    background-color: rgb(0, 0, 0);
+    padding: 12px 15px;
+    align-items:center;
+    border-radius: 3px;
+}
+
+/*Columna derecha del contenido*/
+.page-container>.container-right-column{
+    align-items: flex-end;   
+}
+
+.page-container>.container-right-column p{
+    font-weight: 550;
+    margin-left: 10px;  
+    margin-bottom: 0.3em;  
+}
+
+.page-container>.container-right-column span{
+    color:rgb(28, 211, 231);  
+}
+
+/*Imagen de página web*/
+.page-container>.container-right-column img{
+    max-width: 30em;
+    max-height: 30em;
+}
+

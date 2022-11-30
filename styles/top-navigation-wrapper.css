@@ -1,0 +1,106 @@
+.navigation-wrapper{ 
+    height: 80px;
+    width:100%;
+    background-color: black;
+    color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: 800;
+    } 
+    
+/* Logo de codepen*/
+.navigation-wrapper svg{
+    margin-right: 0;
+    width: 180px;
+    filter: invert();
+    padding: 20px; 
+    }
+
+ /* Menú central de encabezado*/  
+.navigation-wrapper>.navbar{
+    display: grid;
+    margin-left: 0px;
+    grid-template-columns: 1fr 1fr;
+    padding:0px;
+    margin-bottom: 0px;  
+    }
+
+ /* Línea EXPLORE*/
+.navigation-wrapper>.navbar p{
+    color: rgb(244, 223, 105);
+    text-transform: uppercase;
+    margin-block-end: 0px;
+    margin-bottom: 0px;
+   }
+    
+.navigation-wrapper>.navbar>.nav-link-wrapper{
+    width: 25em;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: left;
+    justify-content: space-between;
+   }
+    
+.navigation-wrapper>.navbar>.nav-link-wrapper> .nav-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+   }
+    #spark{
+      font-weight: 100;
+      padding: 0.25em 0 0 0 ;
+      }
+    
+.navigation-wrapper>.navbar>.nav-link-wrapper a{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    text-decoration: none;
+   }
+    
+
+.navigation-wrapper>.navbar>.nav-link-wrapper>.nav-links a{
+    color:aliceblue;
+    }
+
+.navigation-wrapper>.navbar>.nav-link-wrapper>.nav-links a:hover{
+    color:rgb(57, 62, 214);
+    }
+
+.navigation-wrapper>.navbar>.nav-link-wrapper>.nav-links a:visited{
+    color:aliceblue;
+    }
+
+/*Botones derecha de encabezado*/
+.navigation-wrapper>.right-column{
+    width: 26em;
+    padding-left: 18em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    }
+    
+.navigation-wrapper>.right-column> .nav-link-right{
+    font-family: 'Roboto', sans-serif;
+    height: 30px;
+    background-color: hsl(240, 9%, 31%);
+    padding: 8px 15px;
+    align-items: center;
+    margin: 5px;
+    border-radius: 2px;
+    }
+
+/*Icono lupa*/
+.navigation-wrapper>.right-column i{
+    color: rgb(188, 180, 180);
+    font-size: 1.6em;
+    padding: 0px 15px;
+    }
+
+/*Icono flecha*/
+.navigation-wrapper>.right-column> .nav-link-right i{
+        color:rgb(21, 206, 70);
+        padding: 0px;
+    }

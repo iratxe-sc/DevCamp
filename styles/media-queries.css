@@ -1,0 +1,28 @@
+@media (max-width: 615px){
+    .navigation-wrapper{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .navigation-wrapper svg{
+        order: 1;
+        width: 90px;
+    }
+
+    .navigation-wrapper> .navbar{
+        order: 2;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .navigation-wrapper> .navbar> .nav-link-wrapper{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin-bottom: 20px;
+    }
+    .navigation-wrapper> .right-column{
+        order: 2;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}

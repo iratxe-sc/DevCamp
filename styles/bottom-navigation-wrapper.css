@@ -1,0 +1,31 @@
+.bottom-navbar>.bottom-nav-links{
+    width:auto;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin:0px;    
+}
+
+.bottom-navbar>.bottom-nav-links>.bottom-nav-link a{
+color: aliceblue;
+font-size: 15px;
+font-weight: 300;
+text-decoration: none;
+}
+
+.bottom-navbar>.bottom-nav-links>.bottom-nav-link{
+    width: 100%;
+    background-color: hsl(240, 13%, 24%);
+    border: 2px;
+    border-style: solid;
+    border-color:hsl(240, 9%, 31%);
+    padding: 10px 10px;
+}
+
+/*Estilos de las palabras TEAMS, EDUCATION, PRIVACY, WRITING*/
+.bottom-navbar>.bottom-nav-links>.bottom-nav-link span{
+text-transform: uppercase;
+font-size: 20px;
+font-weight: 900;
+}
